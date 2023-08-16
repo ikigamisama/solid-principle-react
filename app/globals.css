@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar{
+    padding: 1rem 2rem;
+    box-shadow: 0 5px 20px -5px rgba(2,1,1,.1);
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+}
+
+.navbar-tool-list::-webkit-scrollbar {
+    width: 4px;
+    height: 4px
+}
+
+.navbar-tool-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px
+}
+
+
+.hljs-ln-numbers {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+	color: #ccc;
+	border-right: 1px solid rgba(204, 204, 204, 0.514);
+	vertical-align: top;
+	word-break: normal; /* Avoid a line break on large line numbers */
+}
+ 
+.hljs-ln td:nth-child(1) {
+	padding-right: 10px;
+}
+ 
+.hljs-ln td:nth-child(2) {
+	padding-left: 10px;
+}
+
+
+.skeleton-loader-box-animation::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+  -webkit-animation: shimmer 5s infinite;
+  animation: shimmer 5s infinite;
+  content: "";
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
