@@ -14,7 +14,7 @@ const SourceCode = dynamic(() => import("@/components/SourceCode"), {
 import "highlight.js/styles/night-owl.css";
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
 	const params = useParams();
 	const toolInfo = toSearchType(params.types);
 
@@ -105,4 +105,4 @@ const page = () => {
 	);
 };
 
-export default page;
+export default Page;

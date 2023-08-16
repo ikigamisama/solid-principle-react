@@ -27,7 +27,7 @@ export default function Home() {
 			<p className='mt-4 leading-normal text-gray-500 dark:text-white'>
 				In this guide, we will delve into each of the SOLID principles and
 				explore how they can be seamlessly incorporated into ReactJS
-				development. By the end, you'll have a clear understanding of how
+				development. By the end, you&apos;ll have a clear understanding of how
 				adhering to these principles can transform your coding practices and the
 				overall quality of your applications.
 			</p>
@@ -64,8 +64,9 @@ export default function Home() {
 				their behavior without modifying their source code. For instance, you
 				can create reusable components that accept props to customize their
 				behavior. If you need to add new features or change the behavior, you
-				should extend the component's functionality by creating new components
-				or wrapping existing ones, rather than modifying the original component.
+				should extend the component&apos;s functionality by creating new
+				components or wrapping existing ones, rather than modifying the original
+				component.
 			</p>
 
 			<p className='my-4 leading-normal text-gray-500 dark:text-white'>
@@ -152,8 +153,8 @@ export default function Home() {
 					Team Collaboration:
 				</span>
 				When multiple developers collaborate on a project, adhering to SOLID
-				principles fosters an environment where each component's behavior and
-				interface are well-defined. This minimizes confusion, making
+				principles fosters an environment where each component&apos;s behavior
+				and interface are well-defined. This minimizes confusion, making
 				collaboration more efficient and harmonious.
 			</p>
 			<p className='mt-4 leading-normal text-gray-500 dark:text-white'>
@@ -163,7 +164,7 @@ export default function Home() {
 				SOLID components tend to be more testable due to their
 				single-responsibility nature and well-defined interfaces. Test suites
 				can be written more effectively, ensuring the reliability of your
-				application's features.
+				application&apos;s features.
 			</p>
 			<p className='mt-4 leading-normal text-gray-500 dark:text-white'>
 				<span className='font-bold text-slate-900 dark:text-white mr-2'>
