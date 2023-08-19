@@ -11,6 +11,13 @@ export const metadata: Metadata = {
 	description:
 		"SOLID is an acronym for five design principles that aim to make software development more maintainable, scalable, and easier to understand. ",
 	themeColor: "black",
+	openGraph: {
+		title: "SOLID Principle in ReactJS By Ikigami",
+		description:
+			"SOLID is an acronym for five design principles that aim to make software development more maintainable, scalable, and easier to understand. ",
+		url: "https://solid-principle-react.vercel.app",
+		images: ["https://solid-principle-react.vercel.app/img/main-banner.png"],
+	},
 };
 
 export default function RootLayout({
